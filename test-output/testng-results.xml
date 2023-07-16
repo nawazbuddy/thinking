@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-15T23:07:38 IST" name="Suite" finished-at="2023-07-15T23:08:03 IST" duration-ms="25550">
+    <groups>
+    </groups>
+    <test started-at="2023-07-15T23:07:38 IST" name="batchExcution" finished-at="2023-07-15T23:08:03 IST" duration-ms="25550">
+      <class name="com.lauching.Login">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:com.lauching.Login@209da20d]" started-at="2023-07-15T23:07:49 IST" name="launch" finished-at="2023-07-15T23:07:51 IST" duration-ms="1251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="amzon()[pri:0, instance:com.lauching.Login@209da20d]" started-at="2023-07-15T23:07:51 IST" name="amzon" finished-at="2023-07-15T23:08:03 IST" duration-ms="12407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amzon -->
+        <test-method is-config="true" signature="closei()[pri:0, instance:com.lauching.Login@209da20d]" started-at="2023-07-15T23:08:03 IST" name="closei" finished-at="2023-07-15T23:08:03 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closei -->
+      </class> <!-- com.lauching.Login -->
+      <class name="com.lauching.Login2">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:com.lauching.Login2@5ba3f27a]" started-at="2023-07-15T23:07:38 IST" name="launch" finished-at="2023-07-15T23:07:40 IST" duration-ms="2092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="flip()[pri:0, instance:com.lauching.Login2@5ba3f27a]" started-at="2023-07-15T23:07:40 IST" name="flip" finished-at="2023-07-15T23:07:49 IST" duration-ms="9408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flip -->
+        <test-method is-config="true" signature="closei()[pri:0, instance:com.lauching.Login2@5ba3f27a]" started-at="2023-07-15T23:07:49 IST" name="closei" finished-at="2023-07-15T23:07:49 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closei -->
+      </class> <!-- com.lauching.Login2 -->
+    </test> <!-- batchExcution -->
+  </suite> <!-- Suite -->
+</testng-results>
